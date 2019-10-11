@@ -1,0 +1,253 @@
+.logo{
+    width: 200px;
+}
+.hero{
+    width:100%;
+    display:block;
+    position:relative;
+    height:600px;
+}
+.green{
+    color:#8eb53e;
+}
+.nav-bar{
+    color:#333;
+}
+.nav-bar ul{
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.nav-bar li {
+    display: inline;
+    padding-right: 30px;
+}
+.nav-bar a{
+    color:#333;
+    font-size: 12px;
+    font-weight:bold;
+}
+.img-align{
+    float: left;
+}
+.img-radius{
+    border: 12px solid #fff;
+    box-shadow: 1px 1px 1px 1px #aaa;
+    border-radius: 60px;
+    margin-top: 30px;
+}
+.search-expand{
+    height: 30px;
+    width:170px;
+    margin-bottom:12px;
+}
+.bubbon {
+	background-color:#8db53e;
+	color:#ffffff;
+    font-size: 13px;
+    padding:3px 9px;
+    margin-right:10px;
+}
+.box{
+    border: 1px solid #ddd;
+    background-color:#fff;
+    margin-left:-52px;
+    padding-bottom:17px;
+}
+.callout{
+    margin-bottom:15px;
+}
+.radius{
+    border: #8eb53e;
+    background:#8eb53e;
+    padding:2px 7px;
+    border-radius:30px;
+}
+.footer{
+    background:#222;
+    color:#FFF;
+}
+.footer a{
+    color:#FFF;
+}
+.footer ul{
+    list-style:none;
+    margin-left:-38px;
+}
+.footer li {
+    display: inline;
+    padding-right:10px;
+}
+.up{
+    color:white;
+}
+.up:hover{
+    text-decoration:none;
+}
+.bubbon2{
+    background-color:#8db53e;
+	color:#ffffff;
+    font-size: 10px;
+    padding:8px 9px;
+    display:inline-block;
+    margin-left:94px;
+    margin-top:6px;
+}
+.bubbon2:hover{
+    text-decoration-style:none;
+}
+.border{
+    border-bottom: #888 dotted 1px;
+}
+.fixed{
+    display:inline;
+}
+.center{
+    text-align:center;
+}
+.center-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.puush{
+    margin-right:10px;
+}
+.pad-top{
+    padding-top:5px;
+}
+.footer-box{
+    border: 1px solid #ddd;
+    background-color:#fff;
+    position:relative;
+    padding-left:10px;
+    margin-top:8px;
+}
+@media (min-width:365px) and (max-width:768px){
+.nav-bar li {
+    padding-right: 0px;
+}
+.nav-bar a{
+    font-size: 8px;
+}
+.hero{
+    height:200px;
+}
+.bubbon2{
+
+}
+.box{
+    margin-left:-25px;
+    padding-bottom:2px;
+    font-size:10px;
+    border:none;
+    background:none;
+}
+.box h4{
+    font-size:12px;
+    margin-bottom:1px;
+}
+.bubbon{
+    font-size: 10px;
+    padding:1px 6px;
+    margin-right:10px;
+}
+img.logosmed{
+    width:115px;
+    height:100px;
+}
+img.contactsmed{
+    width:20px;
+    height:20px;
+}
+.center h3{
+    font-size:14px;
+}
+.center p{
+    font-size:10px;
+}
+}
+@media (min-width:768px) and (max-width:992px){
+.nav-bar li {
+    padding-right: 20px;
+}
+.nav-bar a{
+    font-size: 11px;
+}
+.hero{
+    height:400px;
+}
+.box{
+    margin-left:-15px;
+    padding-bottom:0px;
+    font-size:10px;
+}
+.box h4{
+    font-size:12px;
+    margin-bottom:1px;
+}
+.bubbon {
+    font-size: 10px;
+    padding:1px 6px;
+    margin-right:10px;
+}
+img.logosmed{
+    width:115px;
+    height:100px;
+}
+img.contactsmed{
+    width:20px;
+    height:20px;
+}
+.pad-top{
+    padding-top:5px;
+    font-size:11px;
+}
+.search-expand{
+    height: 30px;
+    width:140px;
+}
+.bubbon2{
+    font-size: 10px;
+    padding:8px 9px;
+    margin-left:64px;
+    margin-top:0px;
+    margin-bottom:9px;
+}
+img.iconsmed{
+    width:25px;
+    height:25px;
+}
+.foot h4{
+    font-size:13px;
+}
+.foot p{
+    font-size:10px;
+}
+.footer{
+  position:relative;
+  font-size:10px;
+}
+.footer ul{ 
+    margin-left:-38px;
+}
+.footer li {
+    padding-right:5px;
+    font-size:10px;
+}
+}
+@media (min-width:992px) and (max-width:1199px){
+.hero{
+    height:400px;
+}
+img.logosmed{
+    width:150px;
+    height:120px;
+}
+.box{
+    margin-left:-15px;
+    padding-bottom:20px;
+    font-size:12px;
+}
+}
